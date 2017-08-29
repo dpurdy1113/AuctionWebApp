@@ -7,11 +7,12 @@ namespace AuctionWebApp.Models
 {
     public class AuctionItem
     {
-        public int ID { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
-        public int minimumBid { get; set; }
-        public int numberOfBids { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int MinimumBid { get; set; }
+        public int NumberOfBids { get; set; }
+        public Category Category { get; set; }
 
     }
 }
